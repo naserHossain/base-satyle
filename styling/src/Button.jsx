@@ -9,6 +9,7 @@ const Button2 = styled.button`
     border: 2px solid #bf4f74;
     border-radius: 3px;
     display: block;
+    cursor: pointer;
 `;
 
 const TomatoButton = styled(Button2)`
@@ -25,6 +26,7 @@ const Button3 = styled.button`
     border: 2px solid tomato;
     border-radius: 3px;
     display: block;
+    cursor: pointer;
 `;
 
 const ReserveButton = (props) => (

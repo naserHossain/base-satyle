@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { Button2, TomatoButton, ReserveButton } from "./Button";
+import Counter from "./Counter";
 
 const fontSizes = {
     sm: "0.8rem",
@@ -49,9 +50,9 @@ const App = () => {
             </BaseButton>
             <PrimaryButton size="sm">Hello BTN</PrimaryButton>
 
-            <Button1 handy>last button</Button1>
+            <Button1 handy="true">last button</Button1>
 
-            <TomatoButton1 handy>Tomato</TomatoButton1>
+            <TomatoButton1 handy="true">Tomato</TomatoButton1>
             <Button2>Normal button</Button2>
 
             <Button2 as="a" href="#">
@@ -63,6 +64,7 @@ const App = () => {
             </TomatoButton>
 
             <ReserveButton> Hello reserve button </ReserveButton>
+            <Counter />
         </div>
     );
 };
